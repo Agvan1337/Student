@@ -1,0 +1,18 @@
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.b1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.b2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
