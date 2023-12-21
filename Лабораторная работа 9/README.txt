@@ -2,8 +2,8 @@
 
 Я создавал таблицу в базе данных через команду в phpMyAdmin:
 
-CREATE DATABASE IF NOT EXISTS new_base;
-USE new_base;
+CREATE DATABASE IF NOT EXISTS base;
+USE base;
 
 CREATE TABLE IF NOT EXISTS users (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
