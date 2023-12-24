@@ -1,0 +1,64 @@
+body {
+    font-family: Montserrat;
+    background-color: #ffffff; /* Белый цвет фона */
+    color: #333333; /* Темный цвет текста */
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.saunacontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    color: #4CAF50; /* Зеленый цвет для заголовков */
+}
+
+.sauna {
+    width: 45%; /* Ширина каждой сауны в зависимости от размера экрана */
+    margin: 10px;
+}
+
+    .sauna img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sauna h3 {
+        color: #4CAF50; /* Зеленый цвет для заголовков */
+    }
+
+    .sauna p {
+        line-height: 1.6;
+    }
+
+a {
+    color: #4CAF50; /* Зеленый цвет для ссылок */
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Добавим раздел контактов и блоки для ввода данных */
+
+.contacts {
+    margin-top: 50px;
+}
+
+.contact-block {
+    display: inline-block;
+    width: 20%;
+    margin-right: 50px;
+}
+
+    .contact-block h4 {
+        color: #4CAF50; /* Зеленый цвет для заголовков */
+    }
